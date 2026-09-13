@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #263238;
+  background-color: #eef3f7;
+  line-height: 1.7;
+}
+
+#main {
+  max-width: 1100px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #073b4c, #118ab2);
+  color: white;
+}
+
+#title {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.hero p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+/* Image */
+
+#img-div {
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  background-color: #f5f8fa;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-height: 600px;
+  border-radius: 8px;
+}
+
+#img-caption {
+  margin-top: 15px;
+  color: #607d8b;
+  font-style: italic;
+}
+
+/* Tribute information */
+
+#tribute-info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+#tribute-info h2 {
+  color: #073b4c;
+  margin-top: 35px;
+}
+
+#tribute-info h2:first-child {
+  margin-top: 0;
+}
+
+#tribute-info li {
+  margin-bottom: 10px;
+}
+
+blockquote {
+  margin: 35px 0;
+  padding: 20px 30px;
+  border-left: 5px solid #118ab2;
+  background-color: #eef8fb;
+  font-style: italic;
+  color: #455a64;
+}
+
+/* Footer */
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #073b4c;
+  color: white;
+}
+
+#tribute-link {
+  color: #8de3ff;
+  font-weight: bold;
+}
+
+#tribute-link:hover {
+  color: white;
+}
+
+/* Responsive design */
+
+@media (max-width: 600px) {
+
+  #main {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  #title {
+    font-size: 2.2rem;
+  }
+
+  #img-div {
+    padding: 20px;
+  }
+
+  #tribute-info {
+    padding: 35px 20px;
+  }
+}
